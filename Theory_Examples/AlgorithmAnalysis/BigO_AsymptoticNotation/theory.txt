@@ -1,0 +1,30 @@
+Big-O Notation for Algorithm Analysis:
+
+This asymptotic notation (Big-O) is used to measure and compare the worst-case scenarios of algorithms theoretically. For any algorithm, the Big-O analysis should be straightforward as long as we correctly identify the operations that are dependent on n, the input size. 
+
+In actual cases, the performance (Runtime) of an algorithm depends on n, that is the size of the input or the number of operations is required for each input item. 
+The algorithms can be classified as follows from the best-to-worst performance (Running Time Complexity): 
+* Where, n is the input size and c is a positive constant. 
+
+0. A constant algorithm - O(1) --> Regardless of how large the values of x and y are, the operation takes a constant amount of time because it involves a simple addition. 
+
+1. A logarithmic algorithm - O(logn) --> The number of iterations needed to reduce num to 1 using halving operation decreases exponentially as num increases, leading to a logarithmic time complexity.
+
+2. A linear algorithm – O(n) --> The execution time increases linearly with the size of the numbers list because each element needs to be added to the total.
+
+3. A superlinear algorithm – O(nlog[n]) --> The nested loops cause the number of iterations to grow superlinearly with n, faster than linear but slower than quadratic or cubic time.
+
+4. A cuadratic algorithm – O(n^2) --> The nested loops cause the number of iterations to grow quadratically with n, leading to a time complexity of O(n^2).
+
+5. A cubic algorithm – O(n^3) --> Similar to the quadratic example, the triple nested loops cause the number of iterations to grow cubically with n, resulting in a time complexity of O(n^3).
+
+6. A polynomial algorithm – O(n^c) --> The nested loops cause the number of iterations to grow quadratically with n, leading to a time complexity of O(n^2).
+
+7. A exponential algorithm – O(c^n) --> The loop iterates 2^n times, resulting in exponential growth in execution time as n increases.
+
+
+  
+ 
+
+
+ 

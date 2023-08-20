@@ -26,25 +26,27 @@ for i in range(n):
     for j in range(i):
         print(i, j)
 
-# 4. A polynomial algorithm – O(n^c)
+# 4. A quadratic algorithm – O(n^2)
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        print(i, j)
+
+# 5. A cubic algorithm – O(n^3)
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        for k in range(1, n + 1):
+            print(i, j, k)
+
+# 6. A polynomial algorithm – O(n^c)
 n = 5
 for i in range(n):
     for j in range(n):
         print(i, j)
 
-# 5. A exponential algorithm – O(c^n)
+# 7. A exponential algorithm – O(c^n)
 n = 5
 for i in range(2 ** n):
     print(i)
 
-# 6. A quadratic algorithm – O(n^2)
-for i in range(1, n + 1):
-    for j in range(1, n + 1):
-        print(i, j)
 
-# 7. A cubic algorithm – O(n^3)
-for i in range(1, n + 1):
-    for j in range(1, n + 1):
-        for k in range(1, n + 1):
-            print(i, j, k)
 
